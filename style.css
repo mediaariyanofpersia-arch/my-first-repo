@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #fffaf3;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #8b2e2e;
+}
+
+logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#about {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f3e5d0;
+}
+
+#about h1 {
+    font-size: 36px;
+    color: #8b2e2e;
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8b2e2e;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+}
+
+#menu {
+    padding: 60px 40px;
+}
+
+#menu h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #8b2e2e;
+    margin-bottom: 40px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: white;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #8b2e2e;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+#contact {
+    padding: 60px 40px;
+    background-color: #f3e5d0;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #8b2e2e;
+    margin-bottom: 40px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.contact-box {
+    background-color: white;
+    padding: 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-box h3 {
+    color: #8b2e2e;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    margin-bottom: 6px;
+}
+
+footer {
+    background-color: #8b2e2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
